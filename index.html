@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio - Canva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Chat boot-->
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    <df-messenger
+      project-id="tough-chassis-440816-p1"
+      agent-id="bddcc37e-2856-484d-aebf-a72ca2e7e46b"
+      language-code="es"
+      max-query-length="-1">
+      <df-messenger-chat-bubble
+       chat-title="Canva">
+      </df-messenger-chat-bubble>
+    </df-messenger>
+    <style>
+      df-messenger {
+        z-index: 999;
+        position: fixed;
+        --df-messenger-font-color: #000;
+        --df-messenger-font-family: Google Sans;
+        --df-messenger-chat-background: #f3f6fc;
+        --df-messenger-message-user-background: #d3e3fd;
+        --df-messenger-message-bot-background: #fff;
+        bottom: 16px;
+        right: 16px;
+      }
+    </style>
+    <!-- Encabezado -->
+    <header>
+        <nav>
+            <h1 class="logo">Canva</h1>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Características</a></li>
+                <li><a href="#">Precios</a></li>
+                <li><a href="#">Testimonios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <button class="cta-button">Empieza Gratis</button>
+        </nav>
+    </header>
+
+    <!-- Sección de Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Diseña lo que quieras, cuando quieras</h2>
+            <p>Con Canva, puedes crear diseños increíbles sin experiencia previa. Ya sea que estés haciendo contenido para redes sociales, presentaciones o cualquier otra cosa, aquí tienes todas las herramientas.</p>
+            <button class="cta-button">Prueba Canva Gratis</button>
+        </div>
+        <div class="hero-image">
+            <img src="./Image/canva.jpg" alt="Imagen de diseño en Canva">
+        </div>
+    </section>
+
+    <!-- Sección de Características -->
+    <section class="features">
+        <h3>Características Principales</h3>
+        <div class="feature-cards">
+            <div class="card">
+                <h4>Fácil de Usar</h4>
+                <p>Herramientas intuitivas para diseñadores principiantes y avanzados.</p>
+            </div>
+            <div class="card">
+                <h4>Amplia Biblioteca</h4>
+                <p>Miles de plantillas, imágenes y elementos de diseño.</p>
+            </div>
+            <div class="card">
+                <h4>Colaboración</h4>
+                <p>Comparte y colabora en tus proyectos con tu equipo.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <section class="testimonials">
+        <h3>Lo que dicen nuestros usuarios</h3>
+        <div class="testimonial-cards">
+            <div class="testimonial">
+                <p>"Canva me permitió crear contenido profesional sin ser diseñador. ¡Es increíble!"</p>
+                <span>- Juan Pérez</span>
+            </div>
+            <div class="testimonial">
+                <p>"Es la mejor herramienta para colaborar en proyectos gráficos de mi equipo."</p>
+                <span>- Ana Gómez</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Canva. Todos los derechos reservados.</p>
+            <ul class="footer-links">
+                <li><a href="#">Política de Privacidad</a></li>
+                <li><a href="#">Términos de Servicio</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

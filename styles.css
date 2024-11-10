@@ -1,0 +1,144 @@
+/* Reset de estilo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado */
+header {
+    background: #0066ff;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cta-button {
+    background: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background: #ff8000;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background: #e6f2ff;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    margin-bottom: 1.5rem;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Características */
+.features {
+    padding: 2rem;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+.features h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.feature-cards {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.card h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Testimonios */
+.testimonials {
+    padding: 2rem;
+    text-align: center;
+}
+
+.testimonials h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial-cards {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.testimonial {
+    background: #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 250px;
+}
+
+/* Pie de Página */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
